@@ -10,7 +10,7 @@ When('user enters the credentials',()=>{
     cy.get('#user-name').type("standard_user")
     cy.get('#password').type("secret_sauce")
     cy.get('#login-button').click()
-
+    cy.log("this rms")
 })
 
 Then('user logs in', ()=>{
